@@ -61,7 +61,12 @@ export default function Index() {
               <Icon name="Menu" size={20} className="mr-2" />
               Посмотреть меню
             </Button>
-            <Button variant="outline" size="lg" className="border-amber-800 text-amber-800 hover:bg-amber-800 hover:text-white px-8 py-3 rounded-full text-lg">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="border-amber-800 text-amber-800 hover:bg-amber-800 hover:text-white px-8 py-3 rounded-full text-lg"
+              onClick={() => window.open('https://yandex.ru/maps/?text=ул. Старинная, 42, Москва', '_blank')}
+            >
               <Icon name="MapPin" size={20} className="mr-2" />
               Найти нас
             </Button>
