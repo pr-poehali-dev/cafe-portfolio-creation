@@ -37,7 +37,7 @@ export default function Index() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Icon name="Coffee" size={28} className="text-amber-100" />
-              <h1 className="text-xl font-bold text-amber-100">Vintage Café</h1>
+              <h1 className="text-xl font-bold text-amber-100">FLAVOR</h1>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-amber-100 hover:text-amber-200 transition-colors">Главная</a>
@@ -52,9 +52,7 @@ export default function Index() {
       {/* Hero Section */}
       <section id="home" className="relative py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-amber-900 mb-6 font-serif">
-            Vintage Café
-          </h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-amber-900 mb-6 font-serif">FLAVOR</h1>
           <p className="text-xl md:text-2xl text-amber-800 mb-8 font-light max-w-2xl mx-auto">
             Окунитесь в атмосферу старинного европейского кафе, где каждая чашка кофе — это история, а каждый момент — воспоминание
           </p>
@@ -165,7 +163,7 @@ export default function Index() {
                 <blockquote className="text-xl italic text-amber-800 mb-4">
                   "В нашем кафе время замедляется. Здесь каждый найдет свой уголок для размышлений, встреч с друзьями или просто наслаждения моментом с идеальной чашкой кофе."
                 </blockquote>
-                <p className="text-amber-700 font-semibold">— Основатели Vintage Café</p>
+                <p className="text-amber-700 font-semibold">— Основатели FLAVOR</p>
               </CardContent>
             </Card>
           </div>
